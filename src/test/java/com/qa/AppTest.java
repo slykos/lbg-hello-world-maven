@@ -1,8 +1,11 @@
 package com.qa;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
+
 import static com.qa.App.sayHello;
-import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * Unit test for simple App.
@@ -22,7 +25,7 @@ public class AppTest
     public void test_shouldAnswerWithTen()
     {
         int answer = 10;
-        assertEquals(10, answer );
+        assertEquals(11, answer );
     }
 
     @Test
